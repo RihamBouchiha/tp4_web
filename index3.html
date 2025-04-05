@@ -4,8 +4,27 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>exercice 3</title>
+    <link rel="stylesheet" href="css/main3.css">
 </head>
 <body>
+    <form id="formulaire">
+        <label>Nom:</label>
+        <input type="text" name="nom"><br><br>
     
+        <label>Prénom:</label>
+        <input type="text" name="prenom"><br><br>
+    
+        <div id="telephones">
+          <div class="telephone">
+            <label>Téléphone:</label>
+            <input type="text" name="telephone">
+          </div>
+        </div><br>
+    
+        <button type="button" onclick="ajouterTelephone()">Ajouter numéro de téléphone</button><br><br>
+    
+        <button type="submit">Envoyer</button>
+      </form>
+    <script lang="javascript" src="js/main3.js"></script>
 </body>
 </html>

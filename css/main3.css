@@ -1,0 +1,18 @@
+.error {
+    border: 2px solid red;
+  }
+
+  .success {
+    border: 2px solid green;
+  }
+
+  .message-erreur {
+    color: red;
+    margin-left: 10px;
+  }
+
+  a {
+    color: purple;
+    cursor: pointer;
+    margin-left: 10px;
+  }
