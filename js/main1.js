@@ -4,15 +4,11 @@ document.getElementById("btn_couleur").addEventListener("click", function() {
 });
 
 document.getElementById("btn-taille").addEventListener("click", function() {
-    let newLength = document.getElementById("len").value; 
-    let newWidth = document.getElementById("lar").value;
+    let new_len = document.getElementById("len").value;
+    let new_lar = document.getElementById("lar").value;
 
-    if (newLength && newWidth) {
-        document.querySelector(".ex1").style.width = newWidth + "px";
-        document.querySelector(".ex1").style.height = newLength + "px";
-    } else {
-        alert("Veuillez entrer une longueur et une largeur valides.");
-    }
+    document.querySelector(".ex1").style.width = new_len + "px";
+    document.querySelector(".ex1").style.height = new_lar + "px";
 });
 
 document.getElementById("supp").addEventListener("click", function() {
@@ -27,3 +23,7 @@ document.getElementById("supp").addEventListener("click", function() {
         bouton.textContent = "Afficher";
     }
 });
+/*document.getElementById("monBouton").addEventListener("click", () => {
+    fonction1();
+    fonction2();
+  });*/

@@ -1,0 +1,44 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+}
+
+.carrousel {
+    position: relative;
+    width: 60%;
+    max-width: 800px;
+    text-align: center;
+}
+
+.image {
+    width: 100%;
+    height: auto;
+    display: none; 
+}
+
+.nav-btn {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+    width: 50px; 
+    height: 50px;
+    opacity: 0.7;
+}
+
+.prev {
+    left: 10px;
+}
+
+.next {
+    right: 10px;
+}
+
+.nav-btn:hover {
+    opacity: 1;
+}
